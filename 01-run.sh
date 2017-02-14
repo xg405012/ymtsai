@@ -1,3 +1,4 @@
+#hello
 #this script first describes the script's usage and prevents the script from running if no filename is inputted. Next, the script chooses the filename entered  (parameter) as the first file specified. This prints the number of genes found in the script. To determine that number, the pipe reads the datafile, ignores the lines starting with pound signs since they are comments, and then chooses the third column. In this third column, the script finds lines containing (gene) and prints number of genes found in file.  
 #!/bin/bash
 #establishes usage for script and prompts user for filename if no filename input 
